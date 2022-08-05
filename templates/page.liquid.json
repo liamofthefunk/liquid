@@ -47,12 +47,36 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "1659698306fc1f9279": {
+      "type": "rich-text",
+      "blocks": {
+        "1659698306739e0d49-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Filter<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1659698306739e0d49-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "16596980656cf01be1",
     "165969817657b5e0f6",
-    "16596982421e5c839e"
+    "16596982421e5c839e",
+    "1659698306fc1f9279"
   ]
 }
