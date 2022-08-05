@@ -1,25 +1,29 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": [
-                    {
-                        "type":"text",
-                        "label":"your headline for the section",
-                        "id":"heading"
-                    },
-                    {
-                        "type":"richtext",
-                        "label":"your description",
-                        "id":"description"
-                    }
-    ],
-    "blocks":[
-                    {
-                        "type":"custom-liquid",
-                        "label":"add custom liquid",
-                        "id":"liquid"
-                    }
-    ]
-  }
-
+{
+  "name": "Section name",
+  "settings": [
+    {
+      "type": "text",
+      "label": "your headline for the section",
+      "id": "heading"
+    },
+    {
+      "type": "richtext",
+      "label": "your description",
+      "id": "description"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Custom Liquid",
+      "type": "custom-liquid",
+      "setings": [
+        {
+        "type":"custom_liquid",
+        "label":"Your custom liquid",
+        "id":"liquid"}
+      ]
+    }
+  ]
+}
 {% endschema %}
