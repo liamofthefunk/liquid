@@ -1,8 +1,6 @@
 {% schema %}
 {
-  "name": "t:sections.custom-liquid.name",
-  "tag": "section",
-  "class": "section",
+  "name": "Liquid",
   "settings": [
     {
       "type": "liquid",
@@ -61,6 +59,19 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 52
+    }
+  ],
+  "blocks":[
+    {
+      "type":"liquid",
+      "name":"custom liquid",
+      "settings":[
+        {
+          "type":"liquid",
+          "lable":"Your Custom Liquid",
+          "id":"Liquid"
+        }
+      ]
     }
   ]
 }
