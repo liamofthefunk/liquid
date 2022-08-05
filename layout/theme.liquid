@@ -233,10 +233,10 @@
       {% if customer.tags contains 'wholesale' %}
       {{ content_for_layout }}
       {% else %}
-      {% include 'wholesale-note' %}
+      {% render 'wholesale-note' %}
       {% endif %}
       {% else %}
-      {% include 'wholesale-note' %}
+      {% render 'wholesale-note' %}
       {% endif %}
       {% else%}
       {{ content_for_layout }}
