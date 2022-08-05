@@ -1,7 +1,16 @@
 <h1> This Works </h1>
 
+
+<h2> TAG </h2>
 {% if page.title == 'Test' %}
-    Yes, page title is test
+    Yes, page title is test.
 {% endif %}
 
+{% comment %} unless is the oposite of if {% endcomment %}
+{% unless page.title == 'Test' %}
+    The page title is not Test.
+{% endunless %}    
+
+
+<h3> FILTER </h3>
 {{ 'hello world' | capitalize }}
